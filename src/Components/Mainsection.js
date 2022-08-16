@@ -1,5 +1,3 @@
-import { Fragment } from "react"
-import {FaFacebookSquare} from 'react-icons/fa'
 
 
 function Mainsection() {

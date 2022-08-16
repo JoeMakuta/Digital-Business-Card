@@ -3,10 +3,10 @@ import { FaFacebookSquare, FaGithubSquare, FaTwitterSquare, FaInstagramSquare } 
 function Footer() {
    return (
       <div className="footer-container" >
-         <FaTwitterSquare color='#918E9B' size={30} />
-         <FaFacebookSquare color='#918E9B' size={30} />
-         <FaGithubSquare color='#918E9B' size={30} />
-         <FaInstagramSquare color='#918E9B' size={30} />
+         <FaTwitterSquare color='#918E9B' size={30} className = "social-media-link" />
+         <FaFacebookSquare color='#918E9B' size={30} className = "social-media-link"/>
+         <FaGithubSquare color='#918E9B' size={30} className = "social-media-link"/>
+         <FaInstagramSquare color='#918E9B' size={30} className = "social-media-link"/>
       </div>
    )
 }
